@@ -152,7 +152,7 @@ jobs:
       uses: actions/upload-artifact@main
       if: env.STATUS == 'success' && !cancelled()
       with:
-        name: JCG_Q20-immortalwrt闭源固件
+        name: JCG_Q20-immortalwrt Firmware
         path: ${{ env.FIRMWARE }}
 
     - name: Create release tag
